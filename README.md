@@ -26,10 +26,11 @@ This Event Management Application allows users to manage events and attendees ef
    - Import the SQL file into your MySQL database. Ensure the database is named `event_management`.
    - Update the database connection details in `app/config/database.php`:
      ```php
-    'host' => 'localhost',
-    'dbname' => 'event_management',
-    'username' => 'your_username',
-    'password' => 'your_password',
+     // Example configuration
+     'host' => 'localhost',
+     'dbname' => 'event_management',
+     'username' => 'your_username',
+     'password' => 'your_password',
      ```
 
 3. **Base URL Configuration**:
