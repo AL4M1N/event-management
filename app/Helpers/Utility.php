@@ -2,6 +2,6 @@
 
 function base_url(string $path = ''): string
 {
-    $base = 'http://localhost/event/public';
+    $base = 'event-management-six-beige.vercel.app';
     return $base . '/' . ltrim($path, '/');
 }
